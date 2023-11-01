@@ -143,7 +143,6 @@ function Home() {
             src="src\assets\face.png"
             className=" w-full drop-shadow-[0_35px_35px_rgb(109,40,217,0.25)]"
             alt=""
-            onLoad={cristian}
           />
         </div>
       </div>
