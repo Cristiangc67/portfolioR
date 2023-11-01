@@ -23,7 +23,7 @@ function Navbar() {
             alt=""
           />
         </a>
-        <div className="flex justify-between text-2xl w-6/12">
+        <div className="flex justify-between text-xl lg:text-2xl w-6/12">
           <a
             className={`${
               active === "Home" ? "active" : ""

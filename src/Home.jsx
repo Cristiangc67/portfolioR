@@ -17,9 +17,9 @@ function Home() {
     console.log(download);
   };
 
-  const cristian = () =>
+  /* const cristian = () => {
     anime({
-      targets: "path",
+      targets: "#cristian",
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "easeInOutSine",
       duration: 400,
@@ -29,9 +29,10 @@ function Home() {
       direction: "alternate",
       loop: true,
     });
+  }; */
 
   return (
-    <div className="flex flex-col justify-center h-full items-center w-full  h-screen bg-[#21272F]">
+    <div className="flex flex-col justify-center items-center w-full  h-screen bg-[#21272F]">
       <div className=" md:flex-col-reverse xl:flex-row flex justify-around items-center ">
         <div className="flex flex-col md:text-center xl:text-start md:w-full xl:w-3/6 md:items-center xl:items-start ">
           <h1 className=" text-5xl font-jost text-white">
@@ -76,9 +77,9 @@ function Home() {
           </a>
         </div>
         <div className="flex justify-center w-3/12 mb-10 relative">
-          <svg
+          {/* <svg
             id="cristian"
-            className="-skew-y-12 absolute top-3/4 left-1/3 z-10 md:opacity-0 xl:opacity-100 "
+            className="-skew-y-12 absolute top-3/4 left-1/3 z-10 hidden xl:inline-block "
             width="345"
             height="114"
             viewBox="0 0 345 114"
@@ -136,7 +137,7 @@ function Home() {
               stroke-width="22"
               mask="url(#path-1-inside-1_1_5)"
             />
-          </svg>
+          </svg> */}
 
           <img
             src="src\assets\face.png"

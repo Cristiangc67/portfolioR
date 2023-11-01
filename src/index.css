@@ -13,7 +13,6 @@ font-family: 'Poiret One', cursive;}
 
 .hidden1{
   opacity: 0;
-  filter: blur(100);
   transform: translateX(-100%); 
   transition: all 1.5s;
 }

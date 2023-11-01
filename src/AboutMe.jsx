@@ -6,13 +6,13 @@ function AboutMe() {
   return (
     <div className=" w-full h-full py-20 bg-[#171C23]">
       <Titles title="Sobre Mi" />
-      <div className=" mt-5 flex items-center justify-around">
+      <div className=" mt-5 flex flex-col xl:flex-row items-center justify-around">
         <img
           src="src\assets\codeTyping.svg"
-          className=" w-3/12 mb-10"
+          className=" w-6/12 xl:w-3/12 mb-10"
           alt="codetyping"
         />
-        <div className="flex flex-col w-5/12 text-2xl leading-10 text-white">
+        <div className=" w-11/12 xl:w-5/12 text-xl lg:text-2xl leading-10 text-white">
           <p className=" font-lato">
             Como Front End Developer, mi enfoque principal es desarrollar
             experiencias de usuario atractivas y eficientes utilizando las
@@ -30,7 +30,7 @@ function AboutMe() {
           Skills
         </h3>
 
-        <div className="flex flex-wrap justify-center gap-24  my-20 mx-3 ">
+        <div className="flex flex-wrap justify-center gap-14 lg:gap-24  my-20 mx-3 ">
           {skills.map((skill) => (
             <SkillCard name={skill.name} />
           ))}
